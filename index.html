@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<script src="assets/js/app.js"></script>
 		
 		<title>Nick Monnin-Allen | Web Developer</title>
 	</head>
@@ -14,7 +15,6 @@
 			<h1>Nick Monnin-Allen</h1>
 			<ul class="navigation">
 				<li><a href="#about" class="nav-link">About</a></li>
-				<li><a href="#skills" class="nav-link">Skills</a></li>
 				<li><a href="#projects" class="nav-link">Projects</a></li>
 				<li><a href="#contact" class="nav-link">Contact</a></li>
 			</ul>
@@ -24,12 +24,12 @@
 		</nav>
 		
 		<section class="hero" id="about">
-			<!-- <img -->
-			<!-- src="assets/images/wfh_1.svg" -->
-			<!-- alt="jane-doe" -->
-			<!-- loading="lazy" -->
-			<!-- class="hero-img" -->
-			<!-- /> -->
+			<img
+			src="assets/images/Profile_pic.jpg"
+			alt="jane-doe"
+			loading="lazy"
+			class="hero-img"
+			/>
 			<div class="bio animate__animated animate__shakeX">
 				<h2 class="bio-title">About Me</h2>
 				<p class="bio-text">
@@ -39,30 +39,8 @@
 				  repudiandae quos!
 				</p>
 			</div>
-		</section>
-		
-		<section class="more-about">
-			<h2>More About Me</h2>
-			<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-			nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-			autem deleniti cupiditate molestias quis unde quae totam porro dicta
-			iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-			</p>
-			<p>
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-			nostrum dolor minus, libero delectus praesentium perferendis
-			</p>
-			<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-			consequuntur labore? Ea totam voluptas amet!
-			</p>
-		</section>
-		
-		<section class="skills" id="skills">
-			<h2 class="skill-header">My Top Skills</h2>
-
 			<div class="skills-wrapper">
+				<h2 class="skill-header">My Top Skills</h2>
 				<div class="first-set animate__animated animate__pulse">
 					<img
 					src="assets/icons/icons8-html-5.svg"
@@ -86,19 +64,19 @@
 
 				<div class="second-set animate__animated animate__pulse">
 					<img
-					src="assets/icons/icons8-bootstrap.svg"
+					src="assets/icons/icons8-unity.svg"
 					alt=""
 					loading="lazy"
 					class="icon icon-card"
 					/>
 					<img
-					src="assets/icons/icons8-react-native.svg"
+					src="assets/icons/icons8-github.svg"
 					alt=""
 					loading="lazy"
 					class="icon icon-card"
 					/>
 					<img
-					src="assets/icons/icons8-git.svg"
+					src="assets/icons/cpp_icon.jpg"
 					alt=""
 					loading="lazy"
 					class="icon icon-card"
@@ -107,53 +85,103 @@
 			</div>
 		</section>
 		
+		<section class="more-about">
+			<h2>More About Me</h2>
+			<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+			nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+			autem deleniti cupiditate molestias quis unde quae totam porro dicta
+			iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+			</p>
+			<p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+			nostrum dolor minus, libero delectus praesentium perferendis
+			</p>
+			<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+			consequuntur labore? Ea totam voluptas amet!
+			</p>
+		</section>
+		
 		<section class="projects" id="projects">
-				<h2 class="projects-title">Some of my Recent Projects</h2>
-				<div class="projects-container">
-					<div class="project-container project-card">
-					<img
-						src="assets/images/expenseTracker.png"
-						alt="expense-tracker"
-						loading="lazy"
-						class="project-pic"
-					/>
-					<h3 class="project-title">Expense Tracker</h3>
-					<p class="project-details">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-					ratione vel inventore labore commodi modi quos culpa aut saepe!
-					Alias!
-					</p>
-					<a href="#" target="_blank" class="project-link">Check it Out</a>
+			<h2 class="projects-title">Some of my Recent Projects</h2>
+			<div class="projects-container-1">
+				<div class="project-container project-card">
+				<img
+					src="assets/images/astraia_titlecard.png"
+					alt="zakumba-astraia"
+					loading="lazy"
+					class="project-pic"
+				/>
+				<h3 class="project-title">Zakumba Astraia Alpha Demo</h3>
+				<p class="project-details">
+				Zakumba Astraia is a project my company AfroDuck Studios is currently
+				working on! We have published this Alpha Demo to showcase the idea of 
+				the game we want to build. I developed most of the code myself for this
+				project from scratch.
+				</p>
+				<a href="https://store.steampowered.com/app/1430350/Zakumba_Astraia/" 
+					target="_blank" 
+					class="project-link">Check it Out
+				</a>
 				</div>
 				<div class="project-container project-card">
 					<img
-						src="assets/images/netflixClone.png"
-						alt="netflic-clone"
+						src="assets/images/logo.png"
+						alt="afroduck-website"
 						loading="lazy"
 						class="project-pic"
 					/>
-					<h3 class="project-title">Netflix Clone</h3>
+					<h3 class="project-title">AfroDuck Studios Website</h3>
 					<p class="project-details">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-					ratione vel inventore labore commodi modi quos culpa aut saepe!
-					Alias!
+					This is the website for our company AfroDuck Studios. We used the 
+					Square Space tool to create it and I have aided in its creation and 
+					maintinece from time to time.
 					</p>
-					<a href="#" target="_blank" class="project-link">Check it Out</a>
+					<a href="https://www.afroduckstudios.com/" 
+						target="_blank" 
+						class="project-link">Check it Out
+					</a>
+				</div>
+			</div>
+			<div class="projects-container-2">
+				<div class="project-container project-card">
+					<img
+						src="assets/images/ballistic_racer.png"
+						alt="ballistic-racers"
+						loading="lazy"
+						class="project-pic"
+					/>
+					<h3 class="project-title">Ballistic Racers</h3>
+					<p class="project-details">
+					Ballistic Racers is a project I did with other students for one of our 
+					capstones. I helped develop the traps, track layout, and other small
+					functionalities of the game along with debugging issues the team came
+					across.
+					</p>
+					<a href="https://cscc-game-projects.itch.io/ballistic-racers-sp2019" 
+						target="_blank" 
+						class="project-link">Check it Out
+					</a>
 				</div>
 				<div class="project-container project-card">
 					<img
-						src="assets/images/greenyEarth.png"
-						alt="greeny-earth"
+						src="assets/images/lighthtepath.png"
+						alt="light-the-path"
 						loading="lazy"
 						class="project-pic"
 					/>
-					<h3 class="project-title">Greeny Earth</h3>
+					<h3 class="project-title">Light the Path</h3>
 					<p class="project-details">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-					ratione vel inventore labore commodi modi quos culpa aut saepe!
-					Alias!
+					Light the Path is a project I pitched and conceptualized for one of our 
+					classes capstone projects. I did the designing and programing for a large 
+					portion of the project. I developed the functionality for enemies, the shrines, 
+					and more!
 					</p>
-					<a href="#" target="_blank" class="project-link">Check it Out</a>
+					<a href="https://cscc-game-projects.itch.io/light-the-path-sp2019" 
+						target="_blank" 
+						class="project-link">Check it Out
+					</a>
 				</div>
 			</div>
 		</section>
@@ -162,8 +190,7 @@
 		<h2>Get In Touch With Me</h2>
 			<div class="contact-form-container">
 				<div class="contact-form">
-				<!-- need to make account for direct emails -->
-					<form action="https://formspree.io/f/xyylngw" method="POST">
+					<form action="https://formspree.io/f/mdojoaoj" method="POST">
 					<div class="form-control">
 						<label for="name">Name</label>
 					<input
@@ -208,5 +235,45 @@
 				</div>
 			</div>
 		</section>
+		
+		<div class="socials">
+			<a href="https://twitter.com/Nick_JMo" target="_blank"
+				><img
+					src="assets/icons/icons8-twitter-circled.gif"
+					alt="Twitter"
+					loading="lazy"
+					class="socicon"
+			/></a>
+			<a href="https://www.instagram.com/nick_mo35/" target="_blank"
+				><img
+					src="assets/icons/icons8-instagram.gif"
+					alt="Instagram"
+					loading="lazy"
+					class="socicon"
+			/></a>
+			<a href="https://www.linkedin.com/in/nicholas-monnin-allen-20b1a4153/" target="_blank"
+				><img
+					src="assets/icons/icons8-linkedin-circled.gif"
+					alt="Linkedin"
+					loading="lazy"
+					class="socicon"
+			/></a>
+			<a href="https://github.com/JMo-35" target="_blank"
+				><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+			/></a>
+		</div>
+		
+		<button onclick="topFunction()" class="scroll-up" id="scroll-up">
+			<img src="assets/icons/icons8-upward-arrow.gif"
+			class="socicon up-arrow"
+			alt=""/>
+		</button>
+			
+		<footer>
+			<p class="copy">&copy; Copyright 2022</p>
+			<p class="copy">
+				Built by Nick Monnin-Allen
+			</p>
+		</footer>	
 	</body>
 </html>
