@@ -41,7 +41,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  background: url("../images/background4.jpg");
+  background: url("images/background4.jpg");
   height: auto;
   width: auto;
 }
